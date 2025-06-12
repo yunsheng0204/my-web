@@ -1,0 +1,59 @@
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color: #f8fafc;
+    color: #334155;
+    text-align: center;
+    padding: 40px 10px;
+}
+
+.card {
+    background-color: #ffffff;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+img.profile {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+p.bio {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.links a {
+    display: inline-block;
+    padding: 8px 14px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: #3b82f6;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    background-color: #1d4ed8;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #94a3b8;
+}
