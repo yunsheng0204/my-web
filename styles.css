@@ -94,3 +94,56 @@ footer {
 .navbar li a:hover {
     color: #007bff;
 }
+
+/* 左側側邊欄容器 + 主內容的版面 */
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 40px auto;
+    gap: 40px;
+    align-items: flex-start;
+    padding: 0 10px;
+}
+
+/* 側邊欄樣式 */
+.sidebar {
+    flex: 1;
+    background-color: #f1f5f9;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar h3 {
+    font-size: 18px;
+    color: #1e293b;
+    margin-bottom: 16px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 12px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #334155;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.sidebar ul li a:hover {
+    color: #2563eb;
+    padding-left: 4px;
+}
+
+/* 主內容區調整 */
+.main {
+    flex: 2;
+}
