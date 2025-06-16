@@ -147,3 +147,15 @@ footer {
 .main {
     flex: 2;
 }
+
+footer a {
+    color: #3b82f6;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 4px;
+    transition: color 0.2s ease;
+}
+
+footer a:hover {
+    color: #1d4ed8;
+}
