@@ -233,7 +233,7 @@ footer a:hover {
 /* Hero 全螢幕背景 */
 .hero {
   height: 100vh;
-  background: url("images/hero-banner.png") no-repeat center center;
+  background: url("images/bg.png") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   display: flex;
