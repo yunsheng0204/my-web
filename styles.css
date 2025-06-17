@@ -330,10 +330,15 @@ footer a:hover {
 
 .full-section {
   width: 100%;
-  background-color: #e2e8f0; /* 可改成圖片或深色背景 */
+  min-height: 100vh;
+  background-color: #e2e8f0;
   padding: 80px 20px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
 
 .full-content {
   max-width: 1000px;
