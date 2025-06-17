@@ -13,6 +13,9 @@ body *:not(:lang(zh-Hant)) {
   font-family: 'Share Tech Mono', monospace;
 }
 
+.mono {
+  font-family: 'Share Tech Mono', monospace;
+}
 
 /* 包住 nav + container 的內容 */
 .page-wrapper {
