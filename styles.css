@@ -24,6 +24,16 @@ html, body {
     z-index: 1000;
 }
 
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 20px;
+    z-index: 1000;
+    background-color: transparent; /* 初始透明 */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
 .navbar ul {
     list-style: none;
     display: flex;
@@ -35,14 +45,25 @@ html, body {
 
 .navbar li a {
     text-decoration: none;
-    color: #333;
+    color: white; /* 初始白字看得見 Hero 背景 */
     font-weight: 600;
     transition: color 0.3s ease;
 }
 
 .navbar li a:hover {
-    color: #007bff;
+    color: #60a5fa;
 }
+
+/* 滾動後的樣式 */
+.navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.85); /* 半透明黑 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar.scrolled a {
+    color: white;
+}
+
 
 /* ----- 主內容區容器 ----- */
 .container {
