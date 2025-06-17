@@ -16,21 +16,12 @@ html, body {
 
 /* ----- Navbar 導覽列 ----- */
 .navbar {
-    background-color: #f5f5f5;
-    padding: 10px 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-.navbar {
     position: fixed;
     top: 0;
     width: 100%;
     padding: 10px 20px;
     z-index: 1000;
-    background-color: transparent; /* 初始透明 */
+    background-color: transparent;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -45,7 +36,7 @@ html, body {
 
 .navbar li a {
     text-decoration: none;
-    color: white; /* 初始白字看得見 Hero 背景 */
+    color: white;  /* 初始白字 */
     font-weight: 600;
     transition: color 0.3s ease;
 }
@@ -54,15 +45,20 @@ html, body {
     color: #60a5fa;
 }
 
-/* 滾動後的樣式 */
+/* 滾動後的樣式：背景變黑，字還是白 */
 .navbar.scrolled {
-    background-color: rgba(0, 0, 0, 0.85); /* 半透明黑 */
+    background-color: rgba(0, 0, 0, 0.9);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .navbar.scrolled a {
     color: white;
 }
+
+.navbar.scrolled a:hover {
+    color: #60a5fa;
+}
+
 
 
 /* ----- 主內容區容器 ----- */
