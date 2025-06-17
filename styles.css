@@ -328,6 +328,20 @@ footer a:hover {
   margin-bottom: 16px;
 }
 
+.full-section {
+  width: 100%;
+  background-color: #e2e8f0; /* 可改成圖片或深色背景 */
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.full-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  color: #1e293b;
+}
+
+
 /* 淡入 + 上滑動畫 */
 @keyframes fadeUp {
   from {
