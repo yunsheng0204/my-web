@@ -2,15 +2,9 @@
 html, body {
     height: 100%;
     margin: 0;
-    font-family: 'Noto Serif TC', serif;
+    font-family: 'Noto Sans TC', sans-serif;
     background-color: #f8fafc;
     color: #334155;
-}
-
-/* 自動讓英文使用 Share Tech Mono */
-body *:lang(en),
-body *:not(:lang(zh-Hant)) {
-  font-family: 'Share Tech Mono', monospace;
 }
 
 .mono {
